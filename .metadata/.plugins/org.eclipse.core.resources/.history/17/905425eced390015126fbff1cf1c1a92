@@ -1,0 +1,10 @@
+package main.java.com.example.sikar.paybill;
+
+public class AsyncTask<T1, T2, T3> {
+
+	protected abstract doInBackground(String[] params) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

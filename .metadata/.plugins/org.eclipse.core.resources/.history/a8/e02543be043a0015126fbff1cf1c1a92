@@ -1,0 +1,50 @@
+package com.example.sikar.web.utils;
+
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+import org.apache.http.client.utils.URLEncodedUtils;
+import org.apache.http.message.BasicNameValuePair;
+
+/**
+ * Created by sikar on 7/22/2015.
+ */
+public class HttpUtils {
+
+
+    public static String addQueryParametersToURL(String aURLWithoutParameters,Map<String,String> aParameters){
+        if(aParameters == null || aParameters.isEmpty()){
+            return aURLWithoutParameters;
+        }
+        if(!aURLWithoutParameters.endsWith("?"))
+            aURLWithoutParameters += "?";
+
+        StringBuffer urlWithParams = new StringBuffer(aURLWithoutParameters);
+
+        String paramString = convertQueryParametersToString(aParameters);
+        urlWithParams.append(paramString);
+
+        return urlWithParams.toString();
+    }
+
+    public static String convertQueryParametersToString(Map<String,String> aParameters){
+        List<BasicNameValuePair> params = new ArrayList<BasicNameValuePair>();
+
+        Set<Map.Entry<String,String>> entrySet = aParameters.entrySet();
+        for(Map.Entry<String,String> entry: entrySet){
+            params.add(new BasicNameValuePair(entry.getKey(),entry.getValue()));
+        }
+        
+        String paramString = URLEncodedUtils.format(params, "UTF-8");
+        String working    = "selectname=PaymentUpdation&accntId=9493692000&billerid=MPMKBHORAP&RU=http%3A%2F%2Fwww.mpcz.co.in%2FpaymentAck&chooseIdentifier=Account%20ID&amtToBePaid=0&outstandingAmt=0&customerName=SWAMI%20SARAN%20SHARMA&billId=184255954&currentBillAmt=408&billdueDate=20-JUL-2015&payGateway=BILLDESK";
+        String nonWorking = "selectname=PaymentUpdation&accntId=9493692000&billerid=MPMKBHORAP&RU=http%3A%2F%2Fwww.mpcz.co.in%2FpaymentAck&chooseIdentifier=Account%20ID&amtToBePaid=0&outstandingAmt=0&customerName=SWAMI%20SARAN%20SHARMA&billId=184255954&currentBillAmt=408&billDueDate=20-JUL-2015&payGateway=BILLDESK"; 		
+        System.out.println(working.equals(nonWorking));
+        // paramString = paramString.replace("+", "%20");
+        return paramString;
+    }
+
+}

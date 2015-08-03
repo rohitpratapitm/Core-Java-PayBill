@@ -1,0 +1,113 @@
+package com.example.sikar.paybill;
+
+import com.example.sikar.web.MPCZConstants;
+
+import java.io.Serializable;
+
+/**
+ * Created by sikar on 8/1/2015.
+ */
+public class TransactionInfo implements Serializable {
+
+    public static final String TXT_ADDITIONAL_INFO_1 = "txtAdditionalInfo1";
+    public static final String TXT_ADDITIONAL_INFO_2 = "txtAdditionalInfo2";
+    public static final String TXT_ADDITIONAL_INFO_3 = "txtAdditionalInfo3";
+    public static final String TXT_ADDITIONAL_INFO_4 = "txtAdditionalInfo4";
+    public static final String TXT_ADDITIONAL_INFO_5 = "txtAdditionalInfo5";
+    public static final String TXT_ADDITIONAL_INFO_5_VALUE = "Normal";
+    public static final String TXT_ADDITIONAL_INFO_6 = "txtAdditionalInfo6";
+    public static final String TXT_ADDITIONAL_INFO_6_VALUE = "Pending";
+    /*['11594354','MPMKBHORAP','0355403000','http://www.mpcz.co.in/paymentAck','2424200','2429500','01-08-2015','Normal','Pending','0']
+    *
+
+    RU	http://www.mpcz.co.in/paymentAck
+    billerid	MPMKBHORAP
+    txtCustomerID	0355403000
+    txtTxnAmount	0
+    txtAdditionalInfo1	11594354
+    txtAdditionalInfo2	2424200
+    txtAdditionalInfo3	2429500
+    txtAdditionalInfo4	01-08-2015
+    txtAdditionalInfo5	Normal
+    txtAdditionalInfo6	Pending
+    */
+    private String mRU = MPCZConstants.RU_ACKNOWLEDGMENT_VALUE;
+    private String mBillerId = BillInfo.BILLER_ID_VALUE;
+    private String mTxtCustomerID ;
+    private String mTxnAmount;
+    private String mTxtAdditionalInfo1;
+    private String mTxtAdditionalInfo2;
+    private String mTxtAdditionalInfo3;
+    private String mTxtAdditionalInfo4;
+    private String mTxtAdditionalInfo5;
+    private String mTxtAdditionalInfo6;
+    
+	public String getRU() {
+		return mRU;
+	}
+	public void setRU(String aRU) {
+		this.mRU = aRU;
+	}
+	public String getBillerId() {
+		return mBillerId;
+	}
+	public void setBillerId(String aBillerId) {
+		this.mBillerId = aBillerId;
+	}
+	public String getTxtCustomerID() {
+		return mTxtCustomerID;
+	}
+	public void setTxtCustomerID(String aTxtCustomerID) {
+		this.mTxtCustomerID = aTxtCustomerID;
+	}
+	public String getTxnAmount() {
+		return mTxnAmount;
+	}
+	public void setTxnAmount(String aTxnAmount) {
+		this.mTxnAmount = aTxnAmount;
+	}
+	public String getTxtAdditionalInfo1() {
+		return mTxtAdditionalInfo1;
+	}
+	public void setTxtAdditionalInfo1(String aTxtAdditionalInfo1) {
+		this.mTxtAdditionalInfo1 = aTxtAdditionalInfo1;
+	}
+	public String getTxtAdditionalInfo2() {
+		return mTxtAdditionalInfo2;
+	}
+	public void setTxtAdditionalInfo2(String aTxtAdditionalInfo2) {
+		this.mTxtAdditionalInfo2 = aTxtAdditionalInfo2;
+	}
+	public String getTxtAdditionalInfo3() {
+		return mTxtAdditionalInfo3;
+	}
+	public void setTxtAdditionalInfo3(String aTxtAdditionalInfo3) {
+		this.mTxtAdditionalInfo3 = aTxtAdditionalInfo3;
+	}
+	public String getTxtAdditionalInfo4() {
+		return mTxtAdditionalInfo4;
+	}
+	public void setTxtAdditionalInfo4(String aTxtAdditionalInfo4) {
+		this.mTxtAdditionalInfo4 = aTxtAdditionalInfo4;
+	}
+	public String getTxtAdditionalInfo5() {
+		return mTxtAdditionalInfo5;
+	}
+	public void setTxtAdditionalInfo5(String aTxtAdditionalInfo5) {
+		this.mTxtAdditionalInfo5 = aTxtAdditionalInfo5;
+	}
+	public String getTxtAdditionalInfo6() {
+		return mTxtAdditionalInfo6;
+	}
+	public void setTxtAdditionalInfo6(String aTxtAdditionalInfo6) {
+		this.mTxtAdditionalInfo6 = aTxtAdditionalInfo6;
+	}
+	@Override
+	public String toString() {
+		
+		
+		return super.toString();
+	}
+	
+	
+}

@@ -1,0 +1,5 @@
+package main.java.com.example.sikar.paybill;
+
+public class AsyncTask<T1, T2, T3> {
+
+}

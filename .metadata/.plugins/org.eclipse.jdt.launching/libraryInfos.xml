@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="F:\PegaEclipse-4.2.1_X64\PegaEclipse-4.2.1_X64\DropinFeatures\pegaFeatures\eclipse\plugins\com.pega.sun.java7\java7\jre" version="1.7.0_07">
+<bootpath>
+<entry path="F:\PegaEclipse-4.2.1_X64\PegaEclipse-4.2.1_X64\DropinFeatures\pegaFeatures\eclipse\plugins\com.pega.sun.java7\java7\jre\lib\resources.jar"/>
+<entry path="F:\PegaEclipse-4.2.1_X64\PegaEclipse-4.2.1_X64\DropinFeatures\pegaFeatures\eclipse\plugins\com.pega.sun.java7\java7\jre\lib\rt.jar"/>
+<entry path="F:\PegaEclipse-4.2.1_X64\PegaEclipse-4.2.1_X64\DropinFeatures\pegaFeatures\eclipse\plugins\com.pega.sun.java7\java7\jre\lib\sunrsasign.jar"/>
+<entry path="F:\PegaEclipse-4.2.1_X64\PegaEclipse-4.2.1_X64\DropinFeatures\pegaFeatures\eclipse\plugins\com.pega.sun.java7\java7\jre\lib\jsse.jar"/>
+<entry path="F:\PegaEclipse-4.2.1_X64\PegaEclipse-4.2.1_X64\DropinFeatures\pegaFeatures\eclipse\plugins\com.pega.sun.java7\java7\jre\lib\jce.jar"/>
+<entry path="F:\PegaEclipse-4.2.1_X64\PegaEclipse-4.2.1_X64\DropinFeatures\pegaFeatures\eclipse\plugins\com.pega.sun.java7\java7\jre\lib\charsets.jar"/>
+<entry path="F:\PegaEclipse-4.2.1_X64\PegaEclipse-4.2.1_X64\DropinFeatures\pegaFeatures\eclipse\plugins\com.pega.sun.java7\java7\jre\lib\jfr.jar"/>
+<entry path="F:\PegaEclipse-4.2.1_X64\PegaEclipse-4.2.1_X64\DropinFeatures\pegaFeatures\eclipse\plugins\com.pega.sun.java7\java7\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="F:\PegaEclipse-4.2.1_X64\PegaEclipse-4.2.1_X64\DropinFeatures\pegaFeatures\eclipse\plugins\com.pega.sun.java7\java7\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="F:\PegaEclipse-4.2.1_X64\PegaEclipse-4.2.1_X64\DropinFeatures\pegaFeatures\eclipse\plugins\com.pega.sun.java7\java7\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="F:\PegaEclipse-win64-4.4.0.0\PegaEclipse-win64-4.4.0.0\eclipse\plugins\com.pega.pep.oracle.java6x64_1.6.0.45\java" version="1.6.0_45">
+<bootpath>
+<entry path="F:\PegaEclipse-win64-4.4.0.0\PegaEclipse-win64-4.4.0.0\eclipse\plugins\com.pega.pep.oracle.java6x64_1.6.0.45\java\jre\lib\resources.jar"/>
+<entry path="F:\PegaEclipse-win64-4.4.0.0\PegaEclipse-win64-4.4.0.0\eclipse\plugins\com.pega.pep.oracle.java6x64_1.6.0.45\java\jre\lib\rt.jar"/>
+<entry path="F:\PegaEclipse-win64-4.4.0.0\PegaEclipse-win64-4.4.0.0\eclipse\plugins\com.pega.pep.oracle.java6x64_1.6.0.45\java\jre\lib\sunrsasign.jar"/>
+<entry path="F:\PegaEclipse-win64-4.4.0.0\PegaEclipse-win64-4.4.0.0\eclipse\plugins\com.pega.pep.oracle.java6x64_1.6.0.45\java\jre\lib\jsse.jar"/>
+<entry path="F:\PegaEclipse-win64-4.4.0.0\PegaEclipse-win64-4.4.0.0\eclipse\plugins\com.pega.pep.oracle.java6x64_1.6.0.45\java\jre\lib\jce.jar"/>
+<entry path="F:\PegaEclipse-win64-4.4.0.0\PegaEclipse-win64-4.4.0.0\eclipse\plugins\com.pega.pep.oracle.java6x64_1.6.0.45\java\jre\lib\charsets.jar"/>
+<entry path="F:\PegaEclipse-win64-4.4.0.0\PegaEclipse-win64-4.4.0.0\eclipse\plugins\com.pega.pep.oracle.java6x64_1.6.0.45\java\jre\lib\modules\jdk.boot.jar"/>
+<entry path="F:\PegaEclipse-win64-4.4.0.0\PegaEclipse-win64-4.4.0.0\eclipse\plugins\com.pega.pep.oracle.java6x64_1.6.0.45\java\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="F:\PegaEclipse-win64-4.4.0.0\PegaEclipse-win64-4.4.0.0\eclipse\plugins\com.pega.pep.oracle.java6x64_1.6.0.45\java\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="F:\PegaEclipse-win64-4.4.0.0\PegaEclipse-win64-4.4.0.0\eclipse\plugins\com.pega.pep.oracle.java6x64_1.6.0.45\java\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="F:\PegaEclipse-4.2.1_X64\PegaEclipse-4.2.1_X64\DropinFeatures\pegaFeatures\eclipse\plugins\com.pega.sun.java7\java7" version="1.7.0_07">
+<bootpath>
+<entry path="F:\PegaEclipse-4.2.1_X64\PegaEclipse-4.2.1_X64\DropinFeatures\pegaFeatures\eclipse\plugins\com.pega.sun.java7\java7\jre\lib\resources.jar"/>
+<entry path="F:\PegaEclipse-4.2.1_X64\PegaEclipse-4.2.1_X64\DropinFeatures\pegaFeatures\eclipse\plugins\com.pega.sun.java7\java7\jre\lib\rt.jar"/>
+<entry path="F:\PegaEclipse-4.2.1_X64\PegaEclipse-4.2.1_X64\DropinFeatures\pegaFeatures\eclipse\plugins\com.pega.sun.java7\java7\jre\lib\sunrsasign.jar"/>
+<entry path="F:\PegaEclipse-4.2.1_X64\PegaEclipse-4.2.1_X64\DropinFeatures\pegaFeatures\eclipse\plugins\com.pega.sun.java7\java7\jre\lib\jsse.jar"/>
+<entry path="F:\PegaEclipse-4.2.1_X64\PegaEclipse-4.2.1_X64\DropinFeatures\pegaFeatures\eclipse\plugins\com.pega.sun.java7\java7\jre\lib\jce.jar"/>
+<entry path="F:\PegaEclipse-4.2.1_X64\PegaEclipse-4.2.1_X64\DropinFeatures\pegaFeatures\eclipse\plugins\com.pega.sun.java7\java7\jre\lib\charsets.jar"/>
+<entry path="F:\PegaEclipse-4.2.1_X64\PegaEclipse-4.2.1_X64\DropinFeatures\pegaFeatures\eclipse\plugins\com.pega.sun.java7\java7\jre\lib\jfr.jar"/>
+<entry path="F:\PegaEclipse-4.2.1_X64\PegaEclipse-4.2.1_X64\DropinFeatures\pegaFeatures\eclipse\plugins\com.pega.sun.java7\java7\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="F:\PegaEclipse-4.2.1_X64\PegaEclipse-4.2.1_X64\DropinFeatures\pegaFeatures\eclipse\plugins\com.pega.sun.java7\java7\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="F:\PegaEclipse-4.2.1_X64\PegaEclipse-4.2.1_X64\DropinFeatures\pegaFeatures\eclipse\plugins\com.pega.sun.java7\java7\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="F:\PegaEclipse-win64-4.4.0.0\PegaEclipse-win64-4.4.0.0\eclipse\plugins\com.pega.pep.oracle.java7x64_1.7.0.60\java" version="1.7.0_60">
+<bootpath>
+<entry path="F:\PegaEclipse-win64-4.4.0.0\PegaEclipse-win64-4.4.0.0\eclipse\plugins\com.pega.pep.oracle.java7x64_1.7.0.60\java\jre\lib\resources.jar"/>
+<entry path="F:\PegaEclipse-win64-4.4.0.0\PegaEclipse-win64-4.4.0.0\eclipse\plugins\com.pega.pep.oracle.java7x64_1.7.0.60\java\jre\lib\rt.jar"/>
+<entry path="F:\PegaEclipse-win64-4.4.0.0\PegaEclipse-win64-4.4.0.0\eclipse\plugins\com.pega.pep.oracle.java7x64_1.7.0.60\java\jre\lib\sunrsasign.jar"/>
+<entry path="F:\PegaEclipse-win64-4.4.0.0\PegaEclipse-win64-4.4.0.0\eclipse\plugins\com.pega.pep.oracle.java7x64_1.7.0.60\java\jre\lib\jsse.jar"/>
+<entry path="F:\PegaEclipse-win64-4.4.0.0\PegaEclipse-win64-4.4.0.0\eclipse\plugins\com.pega.pep.oracle.java7x64_1.7.0.60\java\jre\lib\jce.jar"/>
+<entry path="F:\PegaEclipse-win64-4.4.0.0\PegaEclipse-win64-4.4.0.0\eclipse\plugins\com.pega.pep.oracle.java7x64_1.7.0.60\java\jre\lib\charsets.jar"/>
+<entry path="F:\PegaEclipse-win64-4.4.0.0\PegaEclipse-win64-4.4.0.0\eclipse\plugins\com.pega.pep.oracle.java7x64_1.7.0.60\java\jre\lib\jfr.jar"/>
+<entry path="F:\PegaEclipse-win64-4.4.0.0\PegaEclipse-win64-4.4.0.0\eclipse\plugins\com.pega.pep.oracle.java7x64_1.7.0.60\java\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="F:\PegaEclipse-win64-4.4.0.0\PegaEclipse-win64-4.4.0.0\eclipse\plugins\com.pega.pep.oracle.java7x64_1.7.0.60\java\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="F:\PegaEclipse-win64-4.4.0.0\PegaEclipse-win64-4.4.0.0\eclipse\plugins\com.pega.pep.oracle.java7x64_1.7.0.60\java\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="F:\PegaEclipse-win64-4.4.0.0\PegaEclipse-win64-4.4.0.0\eclipse\plugins\com.pega.pep.oracle.java6_1.6.0.45\java" version="1.6.0_45">
+<bootpath>
+<entry path="F:\PegaEclipse-win64-4.4.0.0\PegaEclipse-win64-4.4.0.0\eclipse\plugins\com.pega.pep.oracle.java6_1.6.0.45\java\jre\lib\resources.jar"/>
+<entry path="F:\PegaEclipse-win64-4.4.0.0\PegaEclipse-win64-4.4.0.0\eclipse\plugins\com.pega.pep.oracle.java6_1.6.0.45\java\jre\lib\rt.jar"/>
+<entry path="F:\PegaEclipse-win64-4.4.0.0\PegaEclipse-win64-4.4.0.0\eclipse\plugins\com.pega.pep.oracle.java6_1.6.0.45\java\jre\lib\sunrsasign.jar"/>
+<entry path="F:\PegaEclipse-win64-4.4.0.0\PegaEclipse-win64-4.4.0.0\eclipse\plugins\com.pega.pep.oracle.java6_1.6.0.45\java\jre\lib\jsse.jar"/>
+<entry path="F:\PegaEclipse-win64-4.4.0.0\PegaEclipse-win64-4.4.0.0\eclipse\plugins\com.pega.pep.oracle.java6_1.6.0.45\java\jre\lib\jce.jar"/>
+<entry path="F:\PegaEclipse-win64-4.4.0.0\PegaEclipse-win64-4.4.0.0\eclipse\plugins\com.pega.pep.oracle.java6_1.6.0.45\java\jre\lib\charsets.jar"/>
+<entry path="F:\PegaEclipse-win64-4.4.0.0\PegaEclipse-win64-4.4.0.0\eclipse\plugins\com.pega.pep.oracle.java6_1.6.0.45\java\jre\lib\modules\jdk.boot.jar"/>
+<entry path="F:\PegaEclipse-win64-4.4.0.0\PegaEclipse-win64-4.4.0.0\eclipse\plugins\com.pega.pep.oracle.java6_1.6.0.45\java\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="F:\PegaEclipse-win64-4.4.0.0\PegaEclipse-win64-4.4.0.0\eclipse\plugins\com.pega.pep.oracle.java6_1.6.0.45\java\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="F:\PegaEclipse-win64-4.4.0.0\PegaEclipse-win64-4.4.0.0\eclipse\plugins\com.pega.pep.oracle.java6_1.6.0.45\java\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

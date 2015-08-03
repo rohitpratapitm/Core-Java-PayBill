@@ -1,0 +1,66 @@
+package com.example.sikar.web;
+
+import java.io.IOException;
+import java.util.HashMap;
+
+import main.java.com.example.sikar.paybill.ShowBill;
+
+import com.example.sikar.paybill.Account;
+import com.example.sikar.web.utils.MySession;
+
+
+/**
+ * Created by sikar on 7/22/2015.
+ */
+
+public class HttpPostTask  {
+
+    public static final String POST_ACCOUNT_ID = "accntId";
+    public static final String POST_CHOOSE_IDENTIFIER = "chooseIdentifier";
+    public static final String POST_CHOOSE_IDENTIFIER_VALUE = "Account ID";
+
+    private String mSessionCookie;
+    Activity mActivity;
+
+    public HttpPostTask(Activity aActivity){
+        super();
+        mActivity = aActivity;
+    }
+
+    @Override
+    protected Account doInBackground(String... params) {
+
+        mSessionCookie = MySession.getSessionCookie();
+        Account account = null;
+
+        //1.Make a POST Request and send account Id as parameter
+        HashMap<String,String> postQueryParameters = new HashMap<String,String>();
+        postQueryParameters.put(POST_CHOOSE_IDENTIFIER, POST_CHOOSE_IDENTIFIER_VALUE);
+        postQueryParameters.put(POST_ACCOUNT_ID, params[0]);
+
+        HttpRequest httpPOSTRequest = new HttpRequest(MPCZConstants.LOGIN_SCREEN, HttpRequest.HTTP_REQUEST_TYPE.POST,postQueryParameters);
+        httpPOSTRequest.setCookie(mSessionCookie);
+        String httpPOSTResponse = httpPOSTRequest.sendPOSTRequest(postQueryParameters);
+
+        JSONResponseHandler responseHandler = new JSONResponseHandler();
+        try{
+            account = responseHandler.handleResponse(httpPOSTResponse);
+        }catch (IOException aIOException){
+            aIOException.printStackTrace();
+        }
+        return account;
+    }
+
+
+    @Override
+    protected void onPostExecute(Account aAccount) {
+
+        Intent showBillIntent = new Intent(mActivity,ShowBill.class);
+        showBillIntent.putExtra("Account",aAccount);
+        showBillIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        mActivity.getApplicationContext().startActivity(showBillIntent);
+
+    }
+
+
+}
